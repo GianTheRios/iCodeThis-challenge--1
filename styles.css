@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #dd3030;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 80 80'%3E%3Cg fill='white' fill-opacity='0.71'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 325px;
+  height: 350px;
+  padding: 0 10px 0 10px;
+  border-top-right-radius: 1.5rem;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 1);
+}
+
+/* .card__title span {
+    color: whitesmoke;
+    background: linear-gradient(to right, #f64983df, #f8b5b5);
+} */
+
+.exit {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+
+.inner__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 1.5rem;
+}
+
+.card__text {
+  color: rgba(0, 0, 0, 0.626);
+  font-size: 0.6rem;
+  text-align: center;
+  padding: 0 20px 0 20px;
+  letter-spacing: 1px;
+}
+
+.discount {
+  font-size: 11px;
+  color: rgb(31, 149, 70);
+}
+
+.btn {
+  width: 9rem;
+  height: 2.2rem;
+  margin-top: 1rem;
+  border-radius: 0.7rem;
+  font-size: 0.6rem;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-style: none;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(2px);
+}
